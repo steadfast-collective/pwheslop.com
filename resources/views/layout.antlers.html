@@ -7,10 +7,28 @@
         <title>{{ title ?? site:name }}</title>
         <link rel="stylesheet" href="{{ mix src='css/tailwind.css' }}">
     </head>
-    <body class="bg-gray-100 font-sans leading-normal text-grey-800">
-        <div class="mx-auto px-2 h-screen flex items-center justify-center">
-            {{ template_content }}
+    <body class="bg-white text-gray-900">
+        <div class="my-12 max-w-2xl mx-auto">
+            <header class="flex flex-row items-center space-x-4 mb-12">
+                <h2><a class="font-semibold" href="/">pwheslop.com</a></h2>
+            </header>
+
+            <main class="mb-20">
+                {{ template_content }}
+            </main>
+
+            <footer class="">
+                <div class="flex items-center space-x-6">
+                    <div class="flex">
+                        <p class="text-sm leading-6"><strong class="font-semibold">Pete Heslop</strong> is Managing Director at <a class="font-semibold" href="https://steadfastcollective.com">Steadfast Collective</a>, my key focus is on building a team of smart creatives which build industry-changing web-applications. I also founded and run a SAAS, Tap, which is the easiest WordPress hosting you’ll ever use.</p>
+                    </div>
+                    <div class="flex">
+                        <img class="rounded-full w-96" src="{{ glide src='/assets/image01.jpeg' height='100' width='100' fit='crop_focal' }}" alt="Pete Heslop">
+                    </div>
+                </div>
+            </footer>
         </div>
-        <script src="{{ mix src='/js/site.js' }}"></script>
+
+        <!-- <script src="{{ mix src='/js/site.js' }}"></script> -->
     </body>
 </html>
