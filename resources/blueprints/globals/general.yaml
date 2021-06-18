@@ -1,0 +1,35 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: footer
+        field:
+          display: Footer
+          type: section
+          icon: section
+          listable: hidden
+      -
+        handle: footer_photo
+        field:
+          mode: grid
+          restrict: false
+          allow_uploads: true
+          display: 'Footer Photo'
+          type: assets
+          icon: assets
+          listable: hidden
+          max_files: 1
+      -
+        handle: footer_bio
+        field:
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          antlers: false
+          display: 'Footer Bio'
+          type: markdown
+          icon: markdown
+          listable: hidden
