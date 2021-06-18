@@ -1,23 +1,17 @@
-title: Posts
 sections:
   main:
-    display: Main
     fields:
       -
         handle: title
         field:
           type: text
           required: true
-          validate:
-            - required
       -
         handle: content
         field:
           type: markdown
-          display: Content
           localizable: true
   sidebar:
-    display: Sidebar
     fields:
       -
         handle: slug
@@ -26,12 +20,14 @@ sections:
           required: true
           localizable: true
           validate:
-            - required
             - 'unique_entry_value:{collection},{id},{site}'
       -
-        handle: date
+        handle: parent
         field:
-          type: date
-          required: true
-          validate:
-            - required
+          type: entries
+          collections:
+            - pages
+          max_items: 1
+          listable: false
+          localizable: true
+title: Pages
