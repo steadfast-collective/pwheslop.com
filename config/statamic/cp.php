@@ -25,7 +25,7 @@ return [
     |
     */
 
-    'start_page' => 'dashboard',
+    'start_page' => 'collections/posts',
 
     /*
     |--------------------------------------------------------------------------
@@ -38,7 +38,16 @@ return [
     */
 
     'widgets' => [
-        'getting_started',
+        [
+            'type' => 'collection',
+            'collection' => 'posts',
+            'width' => 50,
+        ],
+        [
+            'type' => 'collection',
+            'collection' => 'pages',
+            'width' => 50,
+        ],
     ],
 
     /*
