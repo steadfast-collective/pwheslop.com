@@ -33,3 +33,20 @@ sections:
           type: markdown
           icon: markdown
           listable: hidden
+      -
+        handle: placid
+        field:
+          display: Placid
+          type: section
+          icon: section
+          listable: hidden
+      -
+        handle: placid_id
+        field:
+          input_type: text
+          antlers: false
+          display: 'Placid ID'
+          type: text
+          icon: text
+          listable: hidden
+          width: 50

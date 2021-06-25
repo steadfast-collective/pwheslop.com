@@ -4,21 +4,53 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>{{ title ?? site:name }}</title>
         <link rel="stylesheet" href="https://use.typekit.net/tph1vrh.css">
         <link rel="stylesheet" href="{{ mix src='css/tailwind.css' }}">
+
+        <!-- Primary Meta Tags -->
+        <title>{{ seo_title ?? title ?? view:title ?? site:name }}</title>
+        <meta name="title" content="{{ seo_title ?? title ?? view:title ?? site:name }}">
+        <meta name="description" content="{{ seo_description ?? general.footer_bio | strip_tags }}">
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="{{ current_url }}">
+        <meta property="og:title" content="{{ seo_title ?? title ?? view:title ?? site:name }}">
+        <meta property="og:description" content="{{ seo_description ?? general.footer_bio | strip_tags }}">
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="{{ current_url }}">
+        <meta property="twitter:title" content="{{ seo_title ?? title ?? view:title ?? site:name }}">
+        <meta property="twitter:description" content="{{ seo_description ?? general.footer_bio | strip_tags }}">
+
+        {{ if seo_image }}
+            <meta property="og:image" content="{{ site:url }}{{ seo_image }}"/>
+            <meta property="og:image:height" content="600"/>
+            <meta property="og:image:width" content="1200"/>
+
+            <meta property="twitter:image" content="{{ site:url }}{{ seo_image }}"/>
+            <meta name="twitter:card" content="summary_large_image">
+        {{ else }}
+            <meta property="og:image" content="https://api.placid.app/u/{{ general.placid_id }}?&title[text]={{ title | urlencode }}"/>
+            <meta property="og:image:height" content="600"/>
+            <meta property="og:image:width" content="1200"/>
+
+            <meta property="twitter:image" content="https://api.placid.app/u/{{ general.placid_id }}?&title[text]={{ title | urlencode }}"/>
+            <meta name="twitter:card" content="summary_large_image">
+        {{ /if }}
     </head>
     <body class="bg-white text-gray-900 font-sans">
         <div class="my-12 max-w-2xl mx-auto">
             <header class="flex flex-row items-center space-x-4 mb-12">
-                <h2><a class="font-semibold text-gray-500" href="/">pwheslop.com</a></h2>
+                <h2><a class="font-semibold text-gray-500 hover:text-gray-600" href="/">pwheslop.com</a></h2>
             </header>
 
             <main class="mb-20">
                 {{ template_content }}
             </main>
 
-            <footer class="">
+            <footer>
                 <div class="flex items-center space-x-6">
                     <div class="flex text-gray-500 leading-6 text-sm">
                         {{ general.footer_bio }}

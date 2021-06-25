@@ -1,17 +1,28 @@
+title: Pages
 sections:
   main:
+    display: Main
     fields:
       -
         handle: title
         field:
           type: text
           required: true
+          validate:
+            - required
       -
         handle: content
         field:
           type: markdown
           localizable: true
+  seo:
+    display: SEO
+    fields:
+      -
+        import: seo
+        prefix: seo_
   sidebar:
+    display: Sidebar
     fields:
       -
         handle: slug
@@ -20,6 +31,7 @@ sections:
           required: true
           localizable: true
           validate:
+            - required
             - 'unique_entry_value:{collection},{id},{site}'
       -
         handle: parent
@@ -30,4 +42,3 @@ sections:
           max_items: 1
           listable: false
           localizable: true
-title: Pages

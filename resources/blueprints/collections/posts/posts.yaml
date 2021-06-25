@@ -16,6 +16,12 @@ sections:
           type: markdown
           display: Content
           localizable: true
+  seo:
+    display: SEO
+    fields:
+      -
+        import: seo
+        prefix: seo_
   sidebar:
     display: Sidebar
     fields:
