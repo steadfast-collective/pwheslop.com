@@ -2,3 +2,7 @@ name: 'Pete Heslop'
 super: true
 id: ef832a04-6811-4f31-bfa7-a659be61714b
 password_hash: $2y$10$sWhpKbIjAAAwwT7KXiRtDebfpi7ApSAqrIuZVH7MW.CovX5UobXOe
+preferences:
+  collections:
+    posts:
+      after_save: continue_editing
