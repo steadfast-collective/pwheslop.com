@@ -2,7 +2,6 @@
 
 namespace App\Tags;
 
-use Statamic\Facades\Asset;
 use Statamic\Facades\Data;
 use Statamic\Tags\Tags;
 
