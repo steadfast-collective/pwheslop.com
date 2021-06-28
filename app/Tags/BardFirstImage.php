@@ -21,28 +21,32 @@ class BardFirstImage extends Tags
             return;
         }
 
-        $images = collect($bardField->raw())
-            ->where('type', 'paragraph')
-            ->map(function ($paragraphNode) {
-                if (! isset($paragraphNode['content'])) {
-                    return;
-                }
+        try {
+            $images = collect($bardField->raw())
+                ->where('type', 'paragraph')
+                ->map(function ($paragraphNode) {
+                    if (! isset($paragraphNode['content'])) {
+                        return;
+                    }
 
-                return collect($paragraphNode['content'])
-                    ->where('type', 'image')
-                    ->map(function ($imageItem) {
-                        return Data::find($imageItem['attrs']['src']);
-                    })
-                    ->flatten()
-                    ->all();
-            })
-            ->flatten()
-            ->reject(function ($i) {
-                return $i == null;
-            });
+                    return collect($paragraphNode['content'])
+                        ->where('type', 'image')
+                        ->map(function ($imageItem) {
+                            return Data::find($imageItem['attrs']['src']);
+                        })
+                        ->flatten()
+                        ->all();
+                })
+                ->flatten()
+                ->reject(function ($i) {
+                    return $i == null;
+                });
 
-        if ($images->count() > 0) {
-            return config('app.url') . $images->first()->url();
+            if ($images->count() > 0) {
+                return config('app.url') . $images->first()->url();
+            }
+        } catch (\Exception $e) {
+            return;
         }
 
         return;
