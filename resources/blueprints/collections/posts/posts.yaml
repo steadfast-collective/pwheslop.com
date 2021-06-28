@@ -11,6 +11,15 @@ sections:
           validate:
             - required
       -
+        handle: summary
+        field:
+          antlers: false
+          display: Summary
+          type: textarea
+          icon: textarea
+          instructions: 'This will be shown on the posts index.'
+          listable: hidden
+      -
         handle: page_content
         field:
           always_show_set_button: false
