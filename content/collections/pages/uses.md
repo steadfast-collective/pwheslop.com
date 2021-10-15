@@ -3,7 +3,7 @@ id: 439673d3-ed91-484b-a0ae-577b45c4e7f3
 blueprint: pages
 title: Uses
 updated_by: ef832a04-6811-4f31-bfa7-a659be61714b
-updated_at: 1634310179
+updated_at: 1634310200
 page_content:
   -
     type: paragraph
@@ -19,6 +19,12 @@ page_content:
         text: 'What is a ''uses'' page? It''s a list of products someone uses day-to-day, normally related to work. '
   -
     type: paragraph
+    content:
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::EF59F91E-CB29-4E80-84BC-5BD2DB194FBB-1634310185.JPG'
+          alt: null
   -
     type: paragraph
     content:
@@ -162,6 +168,12 @@ page_content:
         text: 'This is our primary camera at Steadfast Collective. We use it primarily to record content for social media and our website.'
   -
     type: paragraph
+    content:
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::IMG_8993_jpg-1634310196.JPG'
+          alt: null
   -
     type: paragraph
     content:
