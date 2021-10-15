@@ -3,7 +3,7 @@ id: 555f8f29-4788-4ee0-9acd-bb30b5ff9213
 blueprint: pages
 title: Speaking
 updated_by: ef832a04-6811-4f31-bfa7-a659be61714b
-updated_at: 1634308844
+updated_at: 1634308904
 page_content:
   -
     type: paragraph
@@ -16,7 +16,7 @@ page_content:
     content:
       -
         type: text
-        text: 'The last 10 years have seen me go from a developer on a website with over 13 million members to starting, growing and selling an agency, building a SAAS with over 13,000 users and then start Steadfast Collective, a development agency focused on helping communities gather online.'
+        text: 'The last 10 years have seen me go from a developer on a website with over 13 million members to starting, growing and selling an agency, building a SAAS with over 13,000 users and then starting Steadfast Collective, a development agency focused on helping communities gather online.'
   -
     type: paragraph
     content:
