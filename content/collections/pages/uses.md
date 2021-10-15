@@ -3,7 +3,7 @@ id: 439673d3-ed91-484b-a0ae-577b45c4e7f3
 blueprint: pages
 title: Uses
 updated_by: ef832a04-6811-4f31-bfa7-a659be61714b
-updated_at: 1634310044
+updated_at: 1634310088
 page_content:
   -
     type: paragraph
@@ -33,19 +33,13 @@ page_content:
         marks:
           -
             type: bold
-        text: 'MacBook Air 2020 M1'
+        text: 'MacBook Air 2020 M1 16GB'
   -
     type: paragraph
     content:
       -
         type: text
-        text: M1
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: '16GB Memory'
+        text: 'Recently upgraded from a MacbookPro touch bar, the difference is day and light.'
   -
     type: bullet_list
     content:
