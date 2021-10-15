@@ -3,7 +3,7 @@ id: 555f8f29-4788-4ee0-9acd-bb30b5ff9213
 blueprint: pages
 title: Speaking
 updated_by: ef832a04-6811-4f31-bfa7-a659be61714b
-updated_at: 1634310314
+updated_at: 1634310381
 page_content:
   -
     type: paragraph
@@ -45,7 +45,13 @@ page_content:
     content:
       -
         type: text
-        text: 'Here''s a sample of the range of topics I''m interested in talking about.'
+        text: 'I''m happy to talk about everything from leadership to product development and everything in between. '
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Here''s a sample of the talks I''ve given previously.'
   -
     type: heading
     attrs:
