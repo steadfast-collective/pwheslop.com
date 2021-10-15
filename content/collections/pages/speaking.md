@@ -3,16 +3,8 @@ id: 555f8f29-4788-4ee0-9acd-bb30b5ff9213
 blueprint: pages
 title: Speaking
 updated_by: ef832a04-6811-4f31-bfa7-a659be61714b
-updated_at: 1634308183
+updated_at: 1634308904
 page_content:
-  -
-    type: heading
-    attrs:
-      level: 2
-    content:
-      -
-        type: text
-        text: 'Pete Heslop'
   -
     type: paragraph
     content:
@@ -24,19 +16,30 @@ page_content:
     content:
       -
         type: text
-        text: 'The last 10 years have seen me developer on a website with over 13 million memebrs, start, grow and sell an agency, build a SAAS with over 13,000 users and then build Steadfast Collective, an development agency focused on helping communities gather online.'
+        text: 'The last 10 years have seen me go from a developer on a website with over 13 million members to starting, growing and selling an agency, building a SAAS with over 13,000 users and then starting Steadfast Collective, a development agency focused on helping communities gather online.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'I''ve had the privilege of speaking at various events around the UK, to both technical and non-technical audiences, sharing my story, expierences and lessons along the way.'
+        text: 'I''ve had the privilege of speaking at various events around the UK, to both technical and non-technical audiences, sharing my story, experiences and lessons along the way.'
+  -
+    type: paragraph
+    content:
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::CXBFeb2020-28.jpg'
+          alt: null
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'If you''d be intrested in me speaking at your event, reach out at pete@steadfastcollective.com'
+        marks:
+          -
+            type: bold
+        text: 'If you''d be interested in me speaking at your event, reach out at pete@steadfastcollective.com'
   -
     type: heading
     attrs:
