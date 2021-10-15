@@ -3,7 +3,7 @@ id: 439673d3-ed91-484b-a0ae-577b45c4e7f3
 blueprint: pages
 title: Uses
 updated_by: ef832a04-6811-4f31-bfa7-a659be61714b
-updated_at: 1634309848
+updated_at: 1634309910
 page_content:
   -
     type: paragraph
@@ -31,7 +31,13 @@ page_content:
     content:
       -
         type: text
-        text: 'M1 - 16GB Memory'
+        text: M1
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: '16GB Memory'
   -
     type: bullet_list
     content:
@@ -107,6 +113,12 @@ page_content:
               -
                 type: text
                 text: Sketch
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Paired with a Dell U2515H Monitor, Logitech 920c Website, magic keyboard and magic trackpad.'
   -
     type: paragraph
     content:
