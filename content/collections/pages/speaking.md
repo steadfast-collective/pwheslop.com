@@ -3,7 +3,7 @@ id: 555f8f29-4788-4ee0-9acd-bb30b5ff9213
 blueprint: pages
 title: Speaking
 updated_by: ef832a04-6811-4f31-bfa7-a659be61714b
-updated_at: 1634308904
+updated_at: 1634310291
 page_content:
   -
     type: paragraph
@@ -40,6 +40,14 @@ page_content:
           -
             type: bold
         text: 'If you''d be interested in me speaking at your event, reach out at pete@steadfastcollective.com'
+  -
+    type: paragraph
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Here''s a sample of the range of topics I''m interested in talking about.'
   -
     type: heading
     attrs:

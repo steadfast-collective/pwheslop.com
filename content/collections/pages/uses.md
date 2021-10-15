@@ -3,7 +3,7 @@ id: 439673d3-ed91-484b-a0ae-577b45c4e7f3
 blueprint: pages
 title: Uses
 updated_by: ef832a04-6811-4f31-bfa7-a659be61714b
-updated_at: 1634310200
+updated_at: 1634310248
 page_content:
   -
     type: paragraph
@@ -136,6 +136,14 @@ page_content:
       -
         type: text
         text: 'I use it mostly for Slack, home automation and taking photos. I don''t have Trello or email on my phone.'
+  -
+    type: paragraph
+    content:
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::0Q0A0212.JPG'
+          alt: null
   -
     type: paragraph
     content:
