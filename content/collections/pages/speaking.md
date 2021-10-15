@@ -3,7 +3,7 @@ id: 555f8f29-4788-4ee0-9acd-bb30b5ff9213
 blueprint: pages
 title: Speaking
 updated_by: ef832a04-6811-4f31-bfa7-a659be61714b
-updated_at: 1634304174
+updated_at: 1634304279
 ---
 # Pete Heslop
 Hi, I'm Pete, Managing Director at Steadfast Collective, my passion is working with smart creatives to craft digital applications that bring people together.
@@ -11,6 +11,8 @@ Hi, I'm Pete, Managing Director at Steadfast Collective, my passion is working w
 The last 10 years have seen me developer on a website with over 13 million memebrs, start, grow and sell an agency, build a SAAS with over 13,000 users and then build Steadfast Collective, an development agency focused on helping communities gather online.
 
 I've had the privilege of speaking at various events around the UK, to both technical and non-technical audiences, sharing my story, expierences and lessons along the way.
+
+If you'd be intrested in me speaking at your event, reach out at pete@steadfastcollective.com
 
 ## Tap: the journey to 13,000 users.
 Tap entered the already overcrowded WordPress hosting space in 2013, with a team who knew little about server-management, back-end development, or how to market a SAAS.
@@ -30,7 +32,7 @@ Through my experience of founding and running three digital businesses over eigh
 I share my experience of switching your thinking to become more 'smart creative' and explore how to spot and then grow smart creatives to their full potential.
 
 
-# #Community First. Product Second.
+## Community First. Product Second.
 1,000s of applications and products launch daily, most fail. 
 
 How do you ensure yours doesn't?
