@@ -3,7 +3,7 @@ id: 555f8f29-4788-4ee0-9acd-bb30b5ff9213
 blueprint: pages
 title: Speaking
 updated_by: ef832a04-6811-4f31-bfa7-a659be61714b
-updated_at: 1634310291
+updated_at: 1634310314
 page_content:
   -
     type: paragraph
@@ -27,14 +27,6 @@ page_content:
     type: paragraph
     content:
       -
-        type: image
-        attrs:
-          src: 'asset::assets::CXBFeb2020-28.jpg'
-          alt: null
-  -
-    type: paragraph
-    content:
-      -
         type: text
         marks:
           -
@@ -42,6 +34,12 @@ page_content:
         text: 'If you''d be interested in me speaking at your event, reach out at pete@steadfastcollective.com'
   -
     type: paragraph
+    content:
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::CXBFeb2020-28.jpg'
+          alt: null
   -
     type: paragraph
     content:
