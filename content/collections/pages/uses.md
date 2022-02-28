@@ -3,7 +3,7 @@ id: 439673d3-ed91-484b-a0ae-577b45c4e7f3
 blueprint: pages
 title: Uses
 updated_by: ef832a04-6811-4f31-bfa7-a659be61714b
-updated_at: 1634310248
+updated_at: 1646051996
 page_content:
   -
     type: paragraph
@@ -33,7 +33,7 @@ page_content:
         marks:
           -
             type: bold
-        text: 'MacBook Air 2020 M1 16GB'
+        text: 'MacBook Pro 2021 14" M1 Pro 16GB'
   -
     type: paragraph
     content:
@@ -152,7 +152,7 @@ page_content:
         marks:
           -
             type: bold
-        text: 'iPad Pro 11 Inch'
+        text: 'iPad Mini 4'
   -
     type: paragraph
     content:
