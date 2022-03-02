@@ -3,7 +3,7 @@ id: 439673d3-ed91-484b-a0ae-577b45c4e7f3
 blueprint: pages
 title: Uses
 updated_by: ef832a04-6811-4f31-bfa7-a659be61714b
-updated_at: 1646051996
+updated_at: 1646216806
 page_content:
   -
     type: paragraph
@@ -152,7 +152,7 @@ page_content:
         marks:
           -
             type: bold
-        text: 'iPad Mini 4'
+        text: 'iPad Mini 6'
   -
     type: paragraph
     content:
