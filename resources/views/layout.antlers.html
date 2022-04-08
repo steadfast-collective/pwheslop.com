@@ -41,9 +41,11 @@
             <meta name="twitter:card" content="summary_large_image">
         {{ /if }}
 
-        <!-- Fathom - beautiful, simple website analytics -->
-        <script src="https://cdn.usefathom.com/script.js" data-site="FHUOORAQ" defer></script>
-        <!-- / Fathom -->
+        {{ if config:app:env === 'production' }}
+            <!-- Fathom - beautiful, simple website analytics -->
+            <script src="https://cdn.usefathom.com/script.js" data-site="FHUOORAQ" defer></script>
+            <!-- / Fathom -->
+        {{ /if }}
     </head>
     <body class="bg-white text-gray-900 font-sans">
         <div class="my-12 max-w-2xl mx-auto">
