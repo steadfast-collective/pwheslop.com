@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c590525fdf422e96949a6e1e79b4e4a4",
+    "content-hash": "f4bce7bd38d6dadc0c41b802b39d7ea1",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -974,6 +974,56 @@
                 }
             ],
             "time": "2022-02-28T11:07:21+00:00"
+        },
+        {
+            "name": "doublethreedigital/static-cache-manager",
+            "version": "v1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doublethreedigital/static-cache-manager.git",
+                "reference": "b51b323abc298de01ad92b5c9b80bff38a986032"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doublethreedigital/static-cache-manager/zipball/b51b323abc298de01ad92b5c9b80bff38a986032",
+                "reference": "b51b323abc298de01ad92b5c9b80bff38a986032",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4 || ^8.0 || ^8.1",
+                "statamic/cms": "3.2.* || 3.3.*"
+            },
+            "require-dev": {
+                "nunomaduro/collision": "^4.2 || ^5.0 || ^6.1",
+                "orchestra/testbench": "^5.0 || ^6.0 || ^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "statamic": {
+                    "name": "Static Cache Manager",
+                    "description": "Simple little utility to clear paths in your static cache."
+                },
+                "laravel": {
+                    "providers": [
+                        "DoubleThreeDigital\\StaticCacheManager\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "DoubleThreeDigital\\StaticCacheManager\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "description": "Simple little utility to clear paths in your static cache.",
+            "support": {
+                "issues": "https://github.com/doublethreedigital/static-cache-manager/issues",
+                "source": "https://github.com/doublethreedigital/static-cache-manager/tree/v1.2.1"
+            },
+            "time": "2022-03-08T20:03:48+00:00"
         },
         {
             "name": "dragonmantank/cron-expression",
