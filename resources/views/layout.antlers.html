@@ -1,84 +1,87 @@
 <!doctype html>
 <html lang="{{ site:short_locale }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="preconnect" href="https://use.typekit.net">
-        <link rel="stylesheet" href="https://use.typekit.net/tph1vrh.css">
-        <link rel="stylesheet" href="{{ mix src='css/tailwind.css' }}">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://use.typekit.net">
+    <link rel="stylesheet" href="https://use.typekit.net/tph1vrh.css">
+    <link rel="stylesheet" href="{{ mix src='css/tailwind.css' }}">
 
-        <!-- Primary Meta Tags -->
-        <title>{{ seo_title ?? title ?? view:title ?? site:name }}</title>
-        <meta name="title" content="{{ seo_title ?? title ?? view:title ?? site:name }}">
-        <meta name="description" content="{{ seo_description ?? general.footer_bio | strip_tags }}">
+    <!-- Primary Meta Tags -->
+    <title>{{ seo_title ?? title ?? view:title ?? site:name }}</title>
+    <meta name="title" content="{{ seo_title ?? title ?? view:title ?? site:name }}">
+    <meta name="description" content="{{ seo_description ?? general.footer_bio | strip_tags }}">
 
-        <!-- Open Graph / Facebook -->
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="{{ current_url }}">
-        <meta property="og:title" content="{{ seo_title ?? title ?? view:title ?? site:name }}">
-        <meta property="og:description" content="{{ seo_description ?? general.footer_bio | strip_tags }}">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ current_url }}">
+    <meta property="og:title" content="{{ seo_title ?? title ?? view:title ?? site:name }}">
+    <meta property="og:description" content="{{ seo_description ?? general.footer_bio | strip_tags }}">
 
-        <!-- Twitter -->
-        <meta property="twitter:card" content="summary_large_image">
-        <meta property="twitter:url" content="{{ current_url }}">
-        <meta property="twitter:title" content="{{ seo_title ?? title ?? view:title ?? site:name }}">
-        <meta property="twitter:description" content="{{ seo_description ?? general.footer_bio | strip_tags }}">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{{ current_url }}">
+    <meta property="twitter:title" content="{{ seo_title ?? title ?? view:title ?? site:name }}">
+    <meta property="twitter:description" content="{{ seo_description ?? general.footer_bio | strip_tags }}">
 
-        {{ if seo_image }}
-            <meta property="og:image" content="{{ site:url }}{{ seo_image }}"/>
-            <meta property="og:image:height" content="600"/>
-            <meta property="og:image:width" content="1200"/>
+    {{ if seo_image }}
+        <meta property="og:image" content="{{ site:url }}{{ seo_image }}" />
+        <meta property="og:image:height" content="600" />
+        <meta property="og:image:width" content="1200" />
 
-            <meta property="twitter:image" content="{{ site:url }}{{ seo_image }}"/>
-            <meta name="twitter:card" content="summary_large_image">
-        {{ else }}
-            <meta property="og:image" content="https://api.placid.app/u/{{ general.placid_id }}?&title[text]={{ title | urlencode }}{{ if {bard_first_image} !== null }}&img[image]={{ bard_first_image }}{{ /if }}"/>
-            <meta property="og:image:height" content="600"/>
-            <meta property="og:image:width" content="1200"/>
+        <meta property="twitter:image" content="{{ site:url }}{{ seo_image }}" />
+        <meta name="twitter:card" content="summary_large_image">
 
-            <meta property="twitter:image" content="https://api.placid.app/u/{{ general.placid_id }}?&title[text]={{ title | urlencode }}{{ if {bard_first_image} !== null }}&img[image]={{ bard_first_image }}{{ /if }}"/>
-            <meta name="twitter:card" content="summary_large_image">
-        {{ /if }}
+    {{ else }}
+        <meta property="og:image"
+            content="https://api.placid.app/u/{{ general.placid_id }}?&title[text]={{ title | urlencode }}{{ if {bard_first_image} !== null }}&img[image]={{ bard_first_image }}{{ /if }}" />
+        <meta property="og:image:height" content="600" />
+        <meta property="og:image:width" content="1200" />
 
-        {{ if config:app:env === 'production' }}
-            <!-- Fathom - beautiful, simple website analytics -->
-            <script src="https://cdn.usefathom.com/script.js" data-site="FHUOORAQ" defer></script>
-            <!-- / Fathom -->
-        {{ /if }}
-    </head>
-    <body class="bg-white text-gray-900 font-sans">
-        <div class="my-12 max-w-2xl mx-auto">
-            <header class="flex flex-row items-center justify-between space-x-4 mb-12 px-4">
-                <h2>
-                    <a class="font-semibold text-gray-500 hover:text-gray-600" href="/">pwheslop.com</a>
-                </h2>
+        <meta property="twitter:image"
+            content="https://api.placid.app/u/{{ general.placid_id }}?&title[text]={{ title | urlencode }}{{ if {bard_first_image} !== null }}&img[image]={{ bard_first_image }}{{ /if }}" />
+        <meta name="twitter:card" content="summary_large_image">
+    {{ /if }}
 
-                <ul class="flex flex-row items-center space-x-4">
-                    {{ nav:main_nav }}
-                        <li>
-                            <a class="text-gray-500 hover:text-gray-600" href="{{ url }}">{{ title }}</a>
-                        </li>
-                    {{ /nav:main_nav }}
-                </ul>
-            </header>
+    {{ if config:app:env === 'production' }}
+        <!-- Fathom - beautiful, simple website analytics -->
+        <script src="https://cdn.usefathom.com/script.js" data-site="FHUOORAQ" defer></script>
+        <!-- / Fathom -->
+    {{ /if }}
+</head>
+<body class="bg-white text-gray-900 font-sans">
+    <div class="my-12 max-w-2xl mx-auto">
+        <header class="flex flex-row items-center justify-between space-x-4 mb-12 px-4">
+            <h2>
+                <a class="font-semibold text-gray-500 hover:text-gray-600" href="/">pwheslop.com</a>
+            </h2>
 
-            <main class="mb-20 px-4">
-                {{ template_content }}
-            </main>
+            <ul class="flex flex-row items-center space-x-4">
+                {{ nav:main_nav }}
+                    <li>
+                        <a class="text-gray-500 hover:text-gray-600" href="{{ url }}">{{ title }}</a>
+                    </li>
+                {{ /nav:main_nav }}
+            </ul>
+        </header>
 
-            <footer>
-                <div class="flex items-center space-x-6 px-4">
-                    <div class="flex text-gray-500 leading-6 text-sm">
-                        {{ general.footer_bio }}
-                    </div>
-                    <div class="flex">
-                        <img class="rounded-full w-96" src="{{ glide :src='general.footer_photo' height='100' width='100' fit='crop_focal' }}" alt="Pete Heslop">
-                    </div>
+        <main class="mb-20 px-4">
+            {{ template_content }}
+        </main>
+
+        <footer>
+            <div class="flex items-center space-x-6 px-4">
+                <div class="flex text-gray-500 leading-6 text-sm">
+                    {{ general.footer_bio }}
                 </div>
-            </footer>
-        </div>
+                <div class="flex">
+                    <img class="rounded-full w-96" src="{{ glide :src='general.footer_photo' height='100' width='100' fit='crop_focal' }}" alt="Pete Heslop">
+                </div>
+            </div>
+        </footer>
+    </div>
 
-        <!-- <script src="{{ mix src='/js/site.js' }}"></script> -->
-    </body>
+    <!-- <script src="{{ mix src='/js/site.js' }}"></script> -->
+</body>
 </html>
