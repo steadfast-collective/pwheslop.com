@@ -3,7 +3,7 @@ id: 555f8f29-4788-4ee0-9acd-bb30b5ff9213
 blueprint: pages
 title: Speaking
 updated_by: ef832a04-6811-4f31-bfa7-a659be61714b
-updated_at: 1634310381
+updated_at: 1658139511
 page_content:
   -
     type: paragraph
@@ -59,6 +59,64 @@ page_content:
     content:
       -
         type: text
+        text: 'The Smart Creatives'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Google''s ''How it works'' by Eric Schmidt describes a ''smart creative'' as a person that doesn''t chase compensation; they pursue the ability to cause change and disrupt industries.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Through my experience of founding and running three digital businesses over eight years, I have discovered that working with smart creatives is a critical element relating to the growth and success of the companies. Teams thrive when these questioning and focused generalists catch the vision and run with it.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'I share my experience of switching your thinking to become more ''smart creative'' and exploring how to spot and then grow smart creatives to their full potential.'
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        text: 'Community First. Product Second.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: '1,000s of applications and products launch daily, and most fail. '
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'How do you ensure yours doesn''t?'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Building a community around your idea before you start building is possibly the most important decision you can make when launching something new.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'I look at the how and why behind building a community, sharing stories of when products succeeded and failed based on the strength of the community around it.'
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
         text: 'Tap: the journey to 13,000 users.'
   -
     type: paragraph
@@ -91,64 +149,6 @@ page_content:
     content:
       -
         type: text
-        text: 'The Smart Creatives'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Google''s ''How it works'' by Eric Schmidt describes a ''smart creative'' as a person that doesn''t chase compensation; they pursue the ability to cause change and disrupt industries.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Through my experience of founding and running three digital businesses over eight years, I have discovered that a critical element relating to the growth and success of the companies has been working with smart creatives. Teams thrive when these questioning and focused generalists catch the vision and run with it.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'I share my experience of switching your thinking to become more ''smart creative'' and explore how to spot and then grow smart creatives to their full potential.'
-  -
-    type: heading
-    attrs:
-      level: 2
-    content:
-      -
-        type: text
-        text: 'Community First. Product Second.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: '1,000s of applications and products launch daily, most fail. '
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'How do you ensure yours doesn''t?'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Building a community around your idea before you start building is possibly the most important decision you can make when launching something new.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'I look at the how and why, behind building a community, sharing stories of when products succeeded and failed based on the strength of the community around it.'
-  -
-    type: heading
-    attrs:
-      level: 2
-    content:
-      -
-        type: text
         text: 'Your first 100 customers.'
   -
     type: paragraph
@@ -161,7 +161,7 @@ page_content:
     content:
       -
         type: text
-        text: 'I open our playbook and share lessons from successful and not so successful product launches from over the last 10 years.'
+        text: 'I open our playbook and share lessons from successful and not-so-successful product launches over the last ten years.'
   -
     type: paragraph
     content:
