@@ -3,7 +3,7 @@ id: 555f8f29-4788-4ee0-9acd-bb30b5ff9213
 blueprint: pages
 title: Speaking
 updated_by: ef832a04-6811-4f31-bfa7-a659be61714b
-updated_at: 1658139511
+updated_at: 1658153344
 page_content:
   -
     type: paragraph
@@ -65,19 +65,37 @@ page_content:
     content:
       -
         type: text
-        text: 'Google''s ''How it works'' by Eric Schmidt describes a ''smart creative'' as a person that doesn''t chase compensation; they pursue the ability to cause change and disrupt industries.'
+        text: 'Smart Creatives are shaping every sector, including yours. '
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Through my experience of founding and running three digital businesses over eight years, I have discovered that working with smart creatives is a critical element relating to the growth and success of the companies. Teams thrive when these questioning and focused generalists catch the vision and run with it.'
+        text: 'Whether it''s coffee or consultancy, these individuals are the impact makers.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'I share my experience of switching your thinking to become more ''smart creative'' and exploring how to spot and then grow smart creatives to their full potential.'
+        text: 'A Smart Creative is an individual who doesn''t chase compensation; they pursue the ability to cause change and disrupt industries. While being experts at their trade, they can step back and see the bigger business picture allowing them to find solutions to significant problems.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Armed with execution skills and without the fear of failure, Smart Creatives are often the unsung heroes of thriving organisations, putting their team''s objectives above their own accolades.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Eric Schmidt, a co-founder at Google, believes Smart Creatives made Google the Goliath it is today. '
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'We''ll dig into how to hire, spot and nurture Smart Creatives in your organisation.'
   -
     type: heading
     attrs:
