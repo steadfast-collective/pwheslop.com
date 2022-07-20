@@ -34,7 +34,18 @@ page_content:
             content:
               -
                 type: text
-                text: 'Newsletter - 1300+ subscribers'
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://exploresummit.co.uk/'
+                      rel: null
+                      target: _blank
+                      title: null
+                text: Newsletter
+              -
+                type: text
+                text: ' - 1300+ subscribers'
       -
         type: list_item
         content:
@@ -101,7 +112,13 @@ page_content:
     content:
       -
         type: text
-        text: 'We''re looking to grow our roster of guests looking to be featured on The Smart Creatives podcast. If you identify as a Smart Creative and have an interesting story to tell, reach out directly at '
+        text: 'We''re looking to grow our roster of guests looking to be featured on The Smart Creatives podcast. '
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'If you identify as a Smart Creative and have an interesting story to tell, reach out directly at '
       -
         type: text
         marks:
@@ -187,5 +204,5 @@ page_content:
         type: text
         text: ', allowing us to easily record both audio and video in high quality.'
 updated_by: ef832a04-6811-4f31-bfa7-a659be61714b
-updated_at: 1658318983
+updated_at: 1658319021
 ---
