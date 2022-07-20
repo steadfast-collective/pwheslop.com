@@ -65,6 +65,14 @@ page_content:
                 type: text
                 text: 'Community platform, with over 50 videos (750+ hours of watched content) launching Nov ''22.'
   -
+    type: paragraph
+    content:
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::CXBFeb2020-39.jpg'
+          alt: null
+  -
     type: heading
     attrs:
       level: 3
@@ -246,5 +254,5 @@ page_content:
         type: text
         text: ', allowing us to easily record both audio and video in high quality.'
 updated_by: ef832a04-6811-4f31-bfa7-a659be61714b
-updated_at: 1658319184
+updated_at: 1658319950
 ---
