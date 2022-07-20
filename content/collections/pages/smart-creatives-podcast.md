@@ -1,7 +1,7 @@
 ---
 id: acea54e5-0b81-4902-a002-26616b809720
 blueprint: pages
-title: smart-creatives-podcast
+title: 'Smart Creatives Podcast - Call for guests'
 page_content:
   -
     type: paragraph
@@ -187,5 +187,5 @@ page_content:
         type: text
         text: ', allowing us to easily record both audio and video in high quality.'
 updated_by: ef832a04-6811-4f31-bfa7-a659be61714b
-updated_at: 1658318923
+updated_at: 1658318983
 ---
