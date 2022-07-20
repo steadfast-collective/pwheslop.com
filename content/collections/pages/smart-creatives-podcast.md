@@ -140,6 +140,48 @@ page_content:
     content:
       -
         type: text
+        text: 'Examples of style'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'You can see an example of my interview style '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://www.youtube.com/watch?v=zfC-p5I8Jf0'
+              rel: null
+              target: _blank
+              title: null
+        text: here
+      -
+        type: text
+        text: ' or '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://www.youtube.com/watch?v=7f2DKtECwDQ'
+              rel: null
+              target: _blank
+              title: null
+        text: here
+      -
+        type: text
+        text: '. '
+  -
+    type: heading
+    attrs:
+      level: 3
+    content:
+      -
+        type: text
         text: 'Podcast Format'
   -
     type: paragraph
@@ -204,5 +246,5 @@ page_content:
         type: text
         text: ', allowing us to easily record both audio and video in high quality.'
 updated_by: ef832a04-6811-4f31-bfa7-a659be61714b
-updated_at: 1658319021
+updated_at: 1658319184
 ---
