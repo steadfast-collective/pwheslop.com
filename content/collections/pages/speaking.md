@@ -3,14 +3,14 @@ id: 555f8f29-4788-4ee0-9acd-bb30b5ff9213
 blueprint: pages
 title: Speaking
 updated_by: ef832a04-6811-4f31-bfa7-a659be61714b
-updated_at: 1658153344
+updated_at: 1659355271
 page_content:
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Hi, I''m Pete, Managing Director at Steadfast Collective, my passion is working with smart creatives to craft digital applications that bring people together.'
+        text: 'Hi, I''m Pete, Managing Director at Steadfast Collective; my passion is working with smart creatives to craft digital applications that bring people together.'
   -
     type: paragraph
     content:
@@ -33,13 +33,106 @@ page_content:
             type: bold
         text: 'If you''d be interested in me speaking at your event, reach out at pete@steadfastcollective.com'
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 3
     content:
       -
         type: image
         attrs:
           src: 'asset::assets::CXBFeb2020-28.jpg'
           alt: null
+      -
+        type: text
+        text: 'Previous appearances'
+  -
+    type: bullet_list
+    content:
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Agency Collective Podcast - August 2022'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Digital Ocean shark week  - '
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://www.youtube.com/watch?v=94wxNv2ZShA'
+                      rel: null
+                      target: _blank
+                      title: null
+                text: 'Feb 2021'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Steadfast Collective Podcast - 2019 till current'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'PHP Hampshire - April 2019'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'PHP Brighton - Oct 2018'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Southampton Solent University - 2018'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'PHP Hampshire - '
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://www.youtube.com/watch?v=NJE_fOpvq_o&t=345s'
+                      rel: null
+                      target: null
+                      title: null
+                text: 'March 2016'
   -
     type: paragraph
     content:
@@ -52,6 +145,32 @@ page_content:
       -
         type: text
         text: 'Here''s a sample of the talks I''ve given previously.'
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        text: 'Leadership lessons from climbing Mt Doom.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Armed with an icepick, crampons and a positive attitude, we set off on our 18km climb up Mt Doom, the volcano from the Lord Of the Rings films. '
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'This was back in 2015. I had just left my first business and was about to start again with Steadfast Collective. '
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'That adventure has too many leadership lessons not to share.'
   -
     type: heading
     attrs:
@@ -160,32 +279,6 @@ page_content:
       -
         type: text
         text: 'A deep dive into many make-or-break moments as we juggled running a full-time agency and a full-time product before moving onto our playbook for growth and our automated future.'
-  -
-    type: heading
-    attrs:
-      level: 2
-    content:
-      -
-        type: text
-        text: 'Your first 100 customers.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Acquiring your first 100 customers will always be the hardest. '
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'I open our playbook and share lessons from successful and not-so-successful product launches over the last ten years.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'I''ve distilled all those learnings into our strategy for acquiring your first 100 customers.'
 ---
 # Pete Heslop
 Hi, I'm Pete, Managing Director at Steadfast Collective, my passion is working with smart creatives to craft digital applications that bring people together.
