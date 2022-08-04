@@ -1,7 +1,7 @@
 ---
 id: acea54e5-0b81-4902-a002-26616b809720
 blueprint: pages
-title: 'Smart Creatives Podcast - Call for guests'
+title: 'Unexpected Entrepreneur Podcast - Call for guests'
 page_content:
   -
     type: paragraph
@@ -11,10 +11,10 @@ page_content:
         marks:
           -
             type: bold
-        text: 'The Smart Creatives'
+        text: 'The Unexpected Entrepreneur'
       -
         type: text
-        text: ' podcast is the new flagship podcast for Summit, a community for Smart Creatives looking to refine their idea or grow their businesses to the next level.'
+        text: ' podcast is the new flagship podcast for Summit, a community for entrepreneurs looking to refine their idea or grow their businesses to the next level.'
   -
     type: paragraph
     content:
@@ -85,7 +85,7 @@ page_content:
     content:
       -
         type: text
-        text: 'Summit is an engaged community comprised primarily of UK-based business owners, creatives and developers who identify as Smart Creatives. '
+        text: 'Summit is an engaged community comprised primarily of UK-based business owners, creatives and developers.'
   -
     type: blockquote
     content:
@@ -94,19 +94,13 @@ page_content:
         content:
           -
             type: text
-            marks:
-              -
-                type: italic
-            text: 'A Smart Creative is an individual who doesn''t chase compensation; they pursue the ability to cause change and disrupt industries. While being experts at their trade, they can step back and see the bigger business picture allowing them to find solutions to significant problems'
+            text: 'An unexpected entrepreneur is an expert in their field, who has ambitious goals to innovate in their sector and push boundaries, which then, in turn, become their means for living and their own unique business. '
       -
         type: paragraph
         content:
           -
             type: text
-            marks:
-              -
-                type: italic
-            text: 'Armed with execution skills and without the fear of failure, Smart Creatives are often the unsung heroes of thriving organisations, putting their team''s objectives above their own accolades.'
+            text: 'Their goal wasn’t always to build a business, but to fill a need in a sector they''re passionate about.'
   -
     type: heading
     attrs:
@@ -120,13 +114,13 @@ page_content:
     content:
       -
         type: text
-        text: 'We''re looking to grow our roster of guests looking to be featured on The Smart Creatives podcast. '
+        text: 'We''re looking to grow our roster of guests looking to be featured on The Unexpected Entrepreneur podcast. '
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'If you identify as a Smart Creative and have an interesting story to tell, reach out directly at '
+        text: 'If you run a business, lead a team or have lessons to share for our community of entrepreneurs, reach out directly at '
       -
         type: text
         marks:
@@ -196,7 +190,7 @@ page_content:
     content:
       -
         type: text
-        text: 'The podcast format has been tested with our previous podcast, Three Lessons Learnt. A popular podcast that despite being dormant is still growing in listenership. '
+        text: 'The podcast format was tested with our previous three Lessons Learnt podcasts. Despite being dormant, a popular podcast still growing in listenership. '
   -
     type: bullet_list
     content:
@@ -208,7 +202,7 @@ page_content:
             content:
               -
                 type: text
-                text: 'Introduction (5 minute)'
+                text: 'Introduction (5 minutes)'
       -
         type: list_item
         content:
@@ -252,7 +246,7 @@ page_content:
         text: Riverside.fm
       -
         type: text
-        text: ', allowing us to easily record both audio and video in high quality.'
+        text: ', allowing us to record high-quality audio and video easily.'
 updated_by: ef832a04-6811-4f31-bfa7-a659be61714b
-updated_at: 1658319950
+updated_at: 1659627413
 ---
