@@ -54,7 +54,7 @@ page_content:
             content:
               -
                 type: text
-                text: 'Podcast - Launching September ''22'
+                text: 'Podcast - Launching Fall ''22'
       -
         type: list_item
         content:
@@ -63,7 +63,7 @@ page_content:
             content:
               -
                 type: text
-                text: 'Community platform, with over 50 videos (750+ hours of watched content) launching Nov ''22.'
+                text: 'Community platform, with over 50 videos (750+ hours of watched content) launching Late ''22.'
   -
     type: paragraph
     content:
@@ -248,5 +248,5 @@ page_content:
         type: text
         text: ', allowing us to record high-quality audio and video easily.'
 updated_by: ef832a04-6811-4f31-bfa7-a659be61714b
-updated_at: 1659627413
+updated_at: 1661343379
 ---
