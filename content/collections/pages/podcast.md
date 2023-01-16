@@ -1,7 +1,7 @@
 ---
 id: acea54e5-0b81-4902-a002-26616b809720
 blueprint: pages
-title: 'Unexpected Entrepreneur Podcast - Call for guests'
+title: 'The Digital Community Leaders podcast  - Call for guests'
 page_content:
   -
     type: paragraph
@@ -11,16 +11,22 @@ page_content:
         marks:
           -
             type: bold
-        text: 'The Unexpected Entrepreneur'
+        text: 'The Digital Community Leaders'
       -
         type: text
-        text: ' podcast is the new flagship podcast for Summit, a community for entrepreneurs looking to refine their idea or grow their businesses to the next level.'
+        text: ' podcast is the new flagship podcast for Steadfast Collective. '
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Summit has three core elements:'
+        text: 'Each week the Digital Community Leaders podcast will host a community leader, manager or champion, asking them questions about growth, engagement, and any lessons learnt along the way.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Our community footings have three core elements:'
   -
     type: ordered_list
     attrs:
@@ -34,18 +40,7 @@ page_content:
             content:
               -
                 type: text
-                marks:
-                  -
-                    type: link
-                    attrs:
-                      href: 'https://exploresummit.co.uk/'
-                      rel: null
-                      target: _blank
-                      title: null
-                text: Newsletter
-              -
-                type: text
-                text: ' - 1300+ subscribers'
+                text: 'Newsletter - 1300+ subscribers'
       -
         type: list_item
         content:
@@ -85,22 +80,7 @@ page_content:
     content:
       -
         type: text
-        text: 'Summit is an engaged community comprised primarily of UK-based business owners, creatives and developers.'
-  -
-    type: blockquote
-    content:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'An unexpected entrepreneur is an expert in their field, who has ambitious goals to innovate in their sector and push boundaries, which then, in turn, become their means for living and their own unique business. '
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Their goal wasn’t always to build a business, but to fill a need in a sector they''re passionate about.'
+        text: 'Steadfast Collective has an engaged group of community leaders comprised primarily of UK-based community owners and managers.'
   -
     type: heading
     attrs:
@@ -114,13 +94,13 @@ page_content:
     content:
       -
         type: text
-        text: 'We''re looking to grow our roster of guests looking to be featured on The Unexpected Entrepreneur podcast. '
+        text: 'We''re looking to grow our roster of guests looking to be featured on The Digital Community Leaders podcast. '
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'If you run a business, lead a team or have lessons to share for our community of entrepreneurs, reach out directly at '
+        text: 'If you are involved in running a community and have a story to tell for our community of community managers, reach out directly at '
       -
         type: text
         marks:
@@ -186,12 +166,6 @@ page_content:
         type: text
         text: 'Podcast Format'
   -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'The podcast format was tested with our previous three Lessons Learnt podcasts. Despite being dormant, a popular podcast still growing in listenership. '
-  -
     type: bullet_list
     content:
       -
@@ -211,7 +185,25 @@ page_content:
             content:
               -
                 type: text
-                text: 'Three lessons you have learnt during your career wish to share with our Smart Creatives. (20 minutes)'
+                text: 'Your number one tip for growth (5-10 minutes)'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Your number one tip for engagement (5-10 minutes)'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'What does your next 12 months look like (5-10 minutes)'
       -
         type: list_item
         content:
@@ -248,5 +240,5 @@ page_content:
         type: text
         text: ', allowing us to record high-quality audio and video easily.'
 updated_by: ef832a04-6811-4f31-bfa7-a659be61714b
-updated_at: 1661343379
+updated_at: 1673873717
 ---
