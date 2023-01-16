@@ -26,7 +26,7 @@ page_content:
     content:
       -
         type: text
-        text: 'Our community footings have three core elements:'
+        text: 'Where we will be sharing the podcast;'
   -
     type: ordered_list
     attrs:
@@ -40,7 +40,7 @@ page_content:
             content:
               -
                 type: text
-                text: 'Newsletter - 1300+ subscribers'
+                text: 'Newsletter - 500+ subscribers'
       -
         type: list_item
         content:
@@ -49,7 +49,7 @@ page_content:
             content:
               -
                 type: text
-                text: 'Podcast - Launching Fall ''22'
+                text: 'LinkedIn, Twitter and Instagram'
       -
         type: list_item
         content:
@@ -58,7 +58,7 @@ page_content:
             content:
               -
                 type: text
-                text: 'Community platform, with over 50 videos (750+ hours of watched content) launching Late ''22.'
+                text: 'Youtube - 750+ hours of watched content.'
   -
     type: paragraph
     content:
@@ -240,5 +240,5 @@ page_content:
         type: text
         text: ', allowing us to record high-quality audio and video easily.'
 updated_by: ef832a04-6811-4f31-bfa7-a659be61714b
-updated_at: 1673873717
+updated_at: 1673873822
 ---
