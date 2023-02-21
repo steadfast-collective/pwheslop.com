@@ -22,6 +22,6 @@ return [
     |
     */
 
-    'submissions' => storage_path('forms'),
+    'submissions' => base_path('forms'),
 
 ];
