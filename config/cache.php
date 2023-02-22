@@ -49,7 +49,7 @@ return [
 
         'file' => [
             'driver' => 'file',
-            'path' => 'path' => base_path('cache'),
+            'path' => base_path('cache'),
         ],
 
         'memcached' => [
