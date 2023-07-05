@@ -10,13 +10,13 @@
     "type": "project",
     "require": {
         "php": "^7.3 || ^8.0",
-        "doublethreedigital/static-cache-manager": "^2.1.0",
+        "duncanmcclean/static-cache-manager": "^3.1.0",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^9.0",
         "laravel/tinker": "^2.0",
-        "statamic/cms": "3.4.*"
+        "statamic/cms": "^4.0"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.5",
