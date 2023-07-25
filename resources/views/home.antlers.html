@@ -1,6 +1,6 @@
 <ul>
     {{ collection:posts }}
-        <li class="mb-6">
+        <li class="mb-8">
             <a href="{{ url }}">
                 <h3 class="font-semibold text-lg mb-1 text-gray-700">{{ title }}</h3>
                 <p class="text-gray-700">{{ summary ?? page_content | truncate:200 | strip_tags }}...</p>
