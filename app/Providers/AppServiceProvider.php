@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Feed\FeedAggregator;
 use Illuminate\Support\ServiceProvider;
 use Statamic\Statamic;
 
@@ -14,7 +15,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->singleton(FeedAggregator::class, function ($app) {
+            return FeedAggregator::fromConfig($app['config']->get('feed', []));
+        });
     }
 
     /**
