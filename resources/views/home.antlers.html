@@ -1,10 +1,29 @@
 <ul>
-    {{ collection:posts }}
-        <li class="mb-8">
-            <a href="{{ url }}">
-                <h3 class="font-semibold text-lg mb-1 text-gray-700">{{ title }}</h3>
-                <p class="text-gray-700">{{ summary ?? page_content | truncate:200 | strip_tags }}...</p>
+    {{ feed }}
+        <li class="mb-8{{ if external }} border-l-2 border-gray-200 pl-4{{ /if }}">
+            <a class="block group" href="{{ url | sanitize }}"{{ if external }} target="_blank" rel="noopener"{{ /if }}>
+                <p class="text-xs text-gray-400 mb-1">
+                    {{ date format="jS F Y" }}{{ if external }} &middot; {{ source | sanitize }} &nearr;{{ /if }}
+                </p>
+
+                {{ if is_video }}
+                    <div class="flex items-start space-x-4">
+                        {{ if thumbnail }}
+                            <img class="w-32 h-20 flex-shrink-0 rounded object-cover bg-gray-100" src="{{ thumbnail | sanitize }}" alt="" loading="lazy">
+                        {{ /if }}
+                        <div>
+                            <h3 class="font-semibold text-lg mb-1 text-gray-600 group-hover:text-gray-800">{{ title | sanitize }}</h3>
+                            {{ if summary }}<p class="text-sm text-gray-500">{{ summary | sanitize }}</p>{{ /if }}
+                        </div>
+                    </div>
+                {{ elseif external }}
+                    <h3 class="font-semibold text-lg mb-1 text-gray-600 group-hover:text-gray-800">{{ title | sanitize }}</h3>
+                    {{ if summary }}<p class="text-sm text-gray-500">{{ summary | sanitize }}</p>{{ /if }}
+                {{ else }}
+                    <h3 class="font-semibold text-lg mb-1 text-gray-700 group-hover:text-gray-900">{{ title | sanitize }}</h3>
+                    {{ if summary }}<p class="text-gray-700">{{ summary | sanitize }}</p>{{ /if }}
+                {{ /if }}
             </a>
         </li>
-    {{ /collection:posts }}
+    {{ /feed }}
 </ul>

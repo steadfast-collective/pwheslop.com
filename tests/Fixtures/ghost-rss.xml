@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title><![CDATA[ Platforming Community ]]></title>
+        <description><![CDATA[ Thoughts on building platforms that bring people together. ]]></description>
+        <link>https://platformingcommunity.com/</link>
+        <generator>Ghost 5.0</generator>
+        <lastBuildDate>Tue, 12 Aug 2025 08:00:00 GMT</lastBuildDate>
+        <atom:link href="https://platformingcommunity.com/rss/" rel="self" type="application/rss+xml"/>
+        <ttl>60</ttl>
+        <item>
+            <title><![CDATA[ Flywheels and motion. ]]></title>
+            <description><![CDATA[ <p>Communities gather momentum slowly &amp; then all at once. Here's how to think about the flywheel.</p> ]]></description>
+            <link>https://platformingcommunity.com/flywheels-and-motion/</link>
+            <guid isPermaLink="false">64f1c2b3a9d4e5f60718293a</guid>
+            <category><![CDATA[ Community ]]></category>
+            <dc:creator><![CDATA[ Pete Heslop ]]></dc:creator>
+            <pubDate>Tue, 12 Aug 2025 08:00:00 GMT</pubDate>
+            <media:content url="https://platformingcommunity.com/content/images/2025/08/flywheel.jpg" medium="image"/>
+            <content:encoded><![CDATA[ <img src="https://platformingcommunity.com/content/images/2025/08/flywheel.jpg" alt="Flywheel"><p>Communities gather momentum slowly &amp; then all at once.</p> ]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[ Community Building - the LEGO way. ]]></title>
+            <description></description>
+            <link>https://platformingcommunity.com/community-building-the-lego-way/</link>
+            <guid isPermaLink="false">64e0b1a2c8d3e4f50617182b</guid>
+            <dc:creator><![CDATA[ Pete Heslop ]]></dc:creator>
+            <pubDate>Mon, 07 Jul 2025 07:30:00 GMT</pubDate>
+            <content:encoded><![CDATA[ <p>What a box of bricks can teach us about <strong>modular</strong> community design.</p><p>Second paragraph.</p> ]]></content:encoded>
+        </item>
+    </channel>
+</rss>

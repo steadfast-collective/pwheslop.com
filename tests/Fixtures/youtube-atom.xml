@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+    <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UC2wqdXFTQRDh2ZamjoH3NHQ"/>
+    <id>yt:channel:2wqdXFTQRDh2ZamjoH3NHQ</id>
+    <yt:channelId>2wqdXFTQRDh2ZamjoH3NHQ</yt:channelId>
+    <title>Pete - Steadfast Collective</title>
+    <link rel="alternate" href="https://www.youtube.com/channel/UC2wqdXFTQRDh2ZamjoH3NHQ"/>
+    <author>
+        <name>Pete - Steadfast Collective</name>
+        <uri>https://www.youtube.com/channel/UC2wqdXFTQRDh2ZamjoH3NHQ</uri>
+    </author>
+    <published>2012-05-01T10:00:00+00:00</published>
+    <entry>
+        <id>yt:video:abc123DEF45</id>
+        <yt:videoId>abc123DEF45</yt:videoId>
+        <yt:channelId>UC2wqdXFTQRDh2ZamjoH3NHQ</yt:channelId>
+        <title>Building community platforms with Laravel</title>
+        <link rel="alternate" href="https://www.youtube.com/watch?v=abc123DEF45"/>
+        <author>
+            <name>Pete - Steadfast Collective</name>
+            <uri>https://www.youtube.com/channel/UC2wqdXFTQRDh2ZamjoH3NHQ</uri>
+        </author>
+        <published>2025-09-01T09:00:00+00:00</published>
+        <updated>2025-09-01T09:30:00+00:00</updated>
+        <media:group>
+            <media:title>Building community platforms with Laravel</media:title>
+            <media:content url="https://www.youtube.com/v/abc123DEF45?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+            <media:thumbnail url="https://i2.ytimg.com/vi/abc123DEF45/hqdefault.jpg" width="480" height="360"/>
+            <media:description>In this video we look at how Steadfast Collective approaches community platforms.
+
+Chapters:
+00:00 Intro</media:description>
+            <media:community>
+                <media:starRating count="12" average="5.00" min="1" max="5"/>
+                <media:statistics views="345"/>
+            </media:community>
+        </media:group>
+    </entry>
+    <entry>
+        <id>yt:video:xyz789GHI01</id>
+        <yt:videoId>xyz789GHI01</yt:videoId>
+        <yt:channelId>UC2wqdXFTQRDh2ZamjoH3NHQ</yt:channelId>
+        <title>Why we run a podcast</title>
+        <link rel="alternate" href="https://www.youtube.com/watch?v=xyz789GHI01"/>
+        <published>2025-06-15T12:00:00+00:00</published>
+        <updated>2025-06-15T12:00:00+00:00</updated>
+        <media:group>
+            <media:title>Why we run a podcast</media:title>
+            <media:thumbnail url="https://i2.ytimg.com/vi/xyz789GHI01/hqdefault.jpg" width="480" height="360"/>
+            <media:description></media:description>
+        </media:group>
+    </entry>
+</feed>
